@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!---------------- header section start --------------- -->
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="https://static.wixstatic.com/media/fd8d26_e822a490ed67776b2cc9249fd811d8fc.png/v1/fit/w_2500,h_1330,al_c/fd8d26_e822a490ed67776b2cc9249fd811d8fc.png"
+                        alt="">
+                    <h3>Hari Om</h3>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#sevices">service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+                <a href="day.html"><img
+                        src="img/Screenshot 2023-03-27 234713.png" alt=""></a>
+            </nav>
+            <div class="header-text">
+                <h4>web designer</h4>
+                <h1>Hii I'm <span> Prashant </span><br> Raut From Mumbai</h1>
+                <a href="" class="btn btn2">Hire Me!</a>
+            </div>
+        </div>
+    </div>
+    
+    <!---------------- header section End ---------------- -->
+
+
+    <!---------------- about section Start ---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/WhatsApp Image 2023-03-12 at 5.20.43 PM.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My Name is Prashant Subhash Raut. Basically I am From Phaltan Satara but I am staying in Ghansoli
+                        Navi Mumbai 16 year's.
+                        I have completed My B.SC in chemistry From Mumbai University and M.sc in Aronodaya University
+                        I have 3 year's Experience of Pharmaciuticale company
+                        I am a multitasker and I have a positive attitude. <br>
+                        I like collect information about AI and new technology in the world. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-containt active-tab" id="skills">
+                        <ul>
+                            <li><span>Web devlopment</span> <br>web app devlopment</li>
+                            <li><span>Android devlopment</span> <br>Gaming app devlopment</li>
+                            <li><span>UI/UX design</span> <br>web app devlopment</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-containt" id="Experience">
+                        <ul>
+                            <li><span>Experience 1</span> <br>2 years at SPPL as QC chemist</li>
+                            <li><span>Experience 2</span> <br>1 Year at Udaan Pharmaceutical R&D Lab </li>
+                            <li><span>Experience 3</span> <br>Web app devlopment</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-containt" id="Education">
+                        <ul>
+                            <li><span>Master of Science</span> <br>MRI Education, Aronodaya University</li>
+                            <li><span>Bachelor of science</span> <br>K.B.P College Vashi, Mumbai University</li>
+                            <li><span>Primary School</span> <br>New Bombay City School ,Ghansoli</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container rowbg">
+        <h1 class="heading sub-title">My skills</h1>
+        <div class=" row row-2">
+            <div class="skills">
+                <div class="progress">
+                    <h3>Web Design<span>95%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+
+                <div class="progress">
+                    <h3>Web Development<span>80%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+
+                <div class="progress">
+                    <h3>Game Devlopment <span>65%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+
+                <div class="progress">
+                    <h3> UI/UX Design <span>75%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+            </div>
+            <div class="box-container "><img
+                    src="http://bridgepointconsulting.com/wp-content/uploads/2022/10/Digital-transformation-drives-efficiency-sustainable-growth.jpeg"
+                    height="200" alt="">
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!---------------- about section End ------------------ -->
+
+
+    <!------------------------ services section start -------------------------------- -->
+    <div id="sevices">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="sevices-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>web design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquam beatae obcaecati
+                        doloribus sint. Natus sequi atque </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquam beatae obcaecati
+                        doloribus sint. Natus sequi atque </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store-ios"></i>
+                    <h2>APP design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquam beatae obcaecati
+                        doloribus sint. Natus sequi atque </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------ services section End ---------------------------------  -->
+
+    <!------------------------ Portfolio section start ------------------------------  -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://www.renderhub.com/firdz3d/apple-logo/apple-logo-01.jpg" alt="">
+                    <div class="layer">
+                        <h2>Social Media App</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non fugit ad labore eaque! Numquam,
+                            nisi! Lorem, ipsum dolor.</p>
+                        <a href="#"><i class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="https://telecomtalk.info/wp-content/uploads/2023/01/india-to-build-own-os-to-compete.jpg"
+                        alt="">
+                    <div class="layer">
+                        <h2>Hotel App</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non fugit ad labore eaque! Numquam,
+                            nisi!Lorem, ipsum dolor.</p>
+                        <a href="#"><i class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/e282894e05d885693e2f15c2a9d29b5a/large.JPG"
+                        alt="">
+                    <div class="layer">
+                        <h2>online Shopping App</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non fugit ad labore eaque! Numquam,
+                            nisi! Lorem, ipsum dolor.</p>
+                        <a href="#"><i class="fas fa-external-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!------------------------ Portfolio section End ------------------------------  -->
+
+    <!------------------------ Contact section Start ------------------------------  -->
+    <div id="contact" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>prashantsinhraut1008@gmail.com</p>
+                    <p><i class="fa-brands fa-square-whatsapp alt"></i>8108094309</p>
+                    <p><i class="fas fa-phone-square alt"></i>9820882066</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="/myPortfolio/myCv/Antivirus Software and Internet Security For Your PC or Mac _ McAfee.pdf"
+                        download="" class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="E-mail" placeholder="Your E-mail" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>copyright@prashant. made with <i class="fas fa-heart"></i> HTML CSS and JavaScript</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!------------------------ Contact section End --------------------------------  -->
+
+
+
+
+
+
+
+    <!-- ///////////////////////////// ------- JAVA SCRIPT ADD ------- ///////////////////////// -->
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links')
+        var tabcontaints = document.getElementsByClassName('tab-containt')
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link')
+            }
+
+            for (tabcontaint of tabcontaints) {
+                tabcontaint.classList.remove('active-tab')
+            }
+            event.currentTarget.classList.add('active-link')
+            document.getElementById(tabname).classList.add('active-tab')
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById('sidemenu')
+
+        function openmenu() {
+            sidemenu.style.right = '0'
+        }
+
+        function closemenu() {
+            sidemenu.style.right = '-200px'
+        }
+
+
+    </script>
+
+</body>
+
+</html>
